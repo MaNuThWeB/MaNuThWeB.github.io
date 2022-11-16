@@ -832,6 +832,7 @@ a:hover {
 .skill-mf span {
   color: #4e4e4e;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 1.2vw;
 }
 
 .skill-mf .progress {
