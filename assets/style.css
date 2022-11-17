@@ -890,6 +890,8 @@ a:hover {
 
 .contact-mf {
   margin-top: 4rem;
+  font-family: sans-serif;
+  font-weight: 650;
 }
 
 @media (min-width: 767px) {
