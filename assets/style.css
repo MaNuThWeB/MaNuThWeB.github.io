@@ -41,7 +41,10 @@ a:hover {
 .color-text-a {
   text-decoration: none;
   color: #4e4e4e;
+
 }
+
+
 
 .box-shadow,
 .card-blog,
@@ -49,12 +52,14 @@ a:hover {
 .service-box,
 .paralax-mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  
 }
 
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
   box-shadow: 0 0 0 4px #cde1f8;
+  
 }
 
 .display-5 {
@@ -144,10 +149,11 @@ a:hover {
 }
 
 .title-a {
-  text-decoration: none;
-  font-size: 3rem;
-  font-weight: bold;
+  text-decoration: wavy;
+  font-size: 3.2rem;
+  font-weight: bolder;
   text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
 .subtitle-a {
@@ -188,7 +194,7 @@ a:hover {
 
 .box-shadow-full {
   padding: 3rem 1.25rem;
-  position: relative;
+
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
@@ -460,6 +466,7 @@ a:hover {
   font-family: Verdana, sans-serif;
   font-weight: lighter;
   font-size: relative;
+
 }
 
 #header .logo img {
@@ -865,6 +872,7 @@ a:hover {
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
+    
   }
 }
 
@@ -895,10 +903,13 @@ a:hover {
   font-weight: 650;
 }
 
-@media (min-width: 767px) {
+@media (min-width:767px) {
   .contact-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    
+    
   }
 }
 
@@ -997,7 +1008,7 @@ a:hover {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-color: #fff;
+  background-color: transparent;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
@@ -1008,6 +1019,7 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
+  background-attachment: scroll;
 }
 
 .work-img img {
@@ -1086,7 +1098,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #0078ff;
+  background-color: #000000;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1102,6 +1114,7 @@ footer {
   padding: 25px 0;
   background: #0062d3;
   font-family:  'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
 }
 
 footer .copyright {
